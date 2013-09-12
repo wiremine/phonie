@@ -1,5 +1,6 @@
 require "phonie/version"
-require "support/support" unless defined? ActiveSupport
+#require 'active_support'
+#require "support/support" unless defined? ActiveSupport
 require "phonie/phone"
 require "phonie/country"
 require "phonie/railties/validator"
